@@ -47,6 +47,11 @@ export default function TextForm(props) {
     saveAs(blob, "exported-text.docx");
   };
 
+  const handleFocus = () => {
+    if (text === 'Enter the text here') {
+      setText('');
+    }
+  }
   
   return (
     <div className="container-fluid px-2">
@@ -59,6 +64,7 @@ export default function TextForm(props) {
           className="form-control"
           value={text}
           onChange={handleOnChange}
+          onFocus={handleFocus}
           id="my-box"
           rows="10"
           style={{ fontSize: "1rem" }}
