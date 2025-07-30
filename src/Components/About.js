@@ -17,20 +17,22 @@ export default function About() {
           About Us
         </h2>
         <p style={{ fontSize: "1.1rem", color: "#374151", marginBottom: "1.5rem" }}>
-          Welcome to our website! We are passionate about building modern web applications using the latest technologies.
-          Our team is dedicated to delivering high-quality solutions that help users achieve their goals efficiently.
+          This website is made to help you in your daily day to day text editing tasks.
+          It provides a simple and intuitive interface for editing text, making it easier to manage your content.
+          Whether you need to format text, or perform other simplle editing tasks, you can also download the text in docx format , this website is designed to assist you efficiently.
         </p>
         <h3 style={{ color: "#6366f1", fontWeight: 600, marginBottom: "0.5rem" }}>
           Our Mission
         </h3>
         <p style={{ color: "#4b5563", marginBottom: "1.5rem" }}>
-          To provide innovative and user-friendly web experiences that make a difference.
+          Our mission is to create user-friendly and innovative web applications that enhance productivity and provide a seamless user experience.
+          We strive to stay at the forefront of technology trends to deliver cutting-edge solutions.
         </p>
         <h3 style={{ color: "#6366f1", fontWeight: 600, marginBottom: "0.5rem" }}>
-          Contact
+          Thanks for visting our website.
         </h3>
         <p style={{ color: "#4b5563" }}>
-          Have questions or feedback? Reach out to us at{" "}
+            Designed by Amit Vishwakarma   {" "}
          
         </p>
       </section>
